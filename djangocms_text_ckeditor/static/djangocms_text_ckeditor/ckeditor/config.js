@@ -7,4 +7,9 @@ CKEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here. For example:
 	// config.language = 'fr';
 	// config.uiColor = '#AADC6E';
+		config.removeDialogTabs = 'image:advanced;link:advanced';
+	config.extraPlugins = 'widget,lineutils,FontAwesome';
+	config.contentsCss = 'css/font-awesome.css';
+	config.allowedContent = true;
+	config.fontAwesome_version = '4.5';
 };
