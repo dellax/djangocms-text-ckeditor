@@ -38,14 +38,14 @@ $(document).ready(function () {
 				['JustifyLeft', 'JustifyCenter', 'JustifyRight'],
 				['HorizontalRule'],
 				['Link', 'Unlink'],
-				['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Table'],
+				['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Table', 'FontAwesome'],
 				['Source']
 			],
 
 			'allowedContent': true,
 			'toolbarCanCollapse': false,
 			'removePlugins': 'resize',
-			'extraPlugins': 'cmsplugins,cmsresize,cmsdialog'
+			'extraPlugins': 'cmsplugins,cmsresize,cmsdialog,widget,lineutils,FontAwesome'
 		},
 
 		init: function (container, options, settings) {
